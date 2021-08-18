@@ -1,3 +1,14 @@
-h1{
-    color: maroon;
+body{font-family: 'Fira Sans', sans-serif;}
+
+/*{
+    border: 1px solid maroon;
+}*/
+.img{
+    max-width: 100%;
+}
+
+.prueba{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
 }
