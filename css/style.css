@@ -1,0 +1,56 @@
+body{font-family: 'Fira Sans', sans-serif;}
+
+/*{
+    border: 1px solid maroon;
+}*/
+.img{
+    max-width: 100%;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 5px 17px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 5px 17px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 17px -5px rgba(0,0,0,0.75);
+
+}
+
+.menu_li{
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.menu_a{
+    text-decoration: none;
+    color: #E1D028 ;
+    font-weight: bold ;
+    font-size: 15px;
+}
+
+.menu_a:hover{
+    color: #34105e;
+}
+
+.menuIcon{
+    background-size: contain;
+    margin-top: 20px !important;
+    margin-right: 10px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    
+    background-repeat: no-repeat;
+
+
+}
+.hora{
+    display: flex;
+    flex-direction:row-reverse;
+    font-weight: bold;
+}
+
+
+
+/*
+HEREDACION EN CSS --> inherit fuerza a coger los atributos del padre e initial para dejar quieto al elemento
+*/
